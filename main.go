@@ -40,6 +40,16 @@ func lenAndUpper2(name string) (length int, uppercase string){
 func repeatMe(words ...string) {
 	fmt.Println(words)
 }
+
+func superAdd(numbers ...int) int {
+	// array 에 loop 할 수 있게 해줌
+	for index, number := range numbers {
+		fmt.Println(index, number)
+	}
+	for i:=0 ; i<len(numbers) ; i++	{
+	}
+	return 1
+}
 func main() {
 	fmt.Println(multiply(2, 2))
 	fmt.Println(lenAndUpper("cha2hyun"))
@@ -47,4 +57,5 @@ func main() {
 	fmt.Println(totalLength, upperName )
 	repeatMe("1","2","3","4")
 	fmt.Println("hellloo")
+	superAdd(1,2,3,4,5,6,7)
 }
