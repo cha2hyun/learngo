@@ -47,9 +47,20 @@ func superAdd(numbers ...int) int {
 		fmt.Println(index, number)
 	}
 	for i:=0 ; i<len(numbers) ; i++	{
+		fmt.
 	}
 	return 1
 }
+
+func canIDring(age int) bool {
+	// if 조건문 안에 variables를 생성할 수 있다.
+	// if 조건문에서만 사용되는 변수라고 유추할 수 있음
+	if koreanAge := age +2; koreanAge < 20 {
+		return false
+	}
+	return true
+}
+
 func main() {
 	fmt.Println(multiply(2, 2))
 	fmt.Println(lenAndUpper("cha2hyun"))
