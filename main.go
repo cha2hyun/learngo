@@ -46,9 +46,9 @@ func superAdd(numbers ...int) int {
 	for index, number := range numbers {
 		fmt.Println(index, number)
 	}
-	for i:=0 ; i<len(numbers) ; i++	{
-		fmt.
-	}
+	// for i:=0 ; i<len(numbers) ; i++	{
+	// 	fmt.
+	// }
 	return 1
 }
 
@@ -69,4 +69,6 @@ func main() {
 	repeatMe("1","2","3","4")
 	fmt.Println("hellloo")
 	superAdd(1,2,3,4,5,6,7)
+	names := []string{"1","2,","3","4"}
+	fmt.Println(names[3])
 }
